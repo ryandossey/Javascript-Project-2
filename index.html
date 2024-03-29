@@ -10,11 +10,28 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
+
 <body>
     <div class="container">
-
+        <h1 class="teal-text">Number Guessing Game</h1>
+        <h5 class="teal-text">Click the number to guess</h5>
+        <div id="numberButtonsRow" class="row">
+            <div class="col s12">
+                <div id="numberButtons" class="row"></div>
+            </div>
+        </div>
+        <h6 id="attempts" class="teal-text"></h5>
+        <h5 id="hint" class="teal-text"></h5>
+        <div class="row">
+            <div class="col s12">
+                <button id="tryAgain" class="btn teal lighten-2 waves-effect waves-light">Try Again</button>
+                <p id="hint"></p>
+            </div>
+        </div>
     </div>
+
     <script src="index.js"></script>
 </body>
+
 
 </html>
